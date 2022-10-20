@@ -20,7 +20,7 @@ setup(
     install_requires=[
         'chardet',
         'requests',
-        'simplejson >= 3.16.0, <= 3.17.2',
+        'simplejson',
     ],
     test_suite='shippo.test.all',
     tests_require=['unittest2', 'mock', 'vcrpy'],
